@@ -71,7 +71,6 @@ asset_id_ticker_map = [
 
 current_asset_id = 4
 
-# Let's try BTC
 train_data_set = train_df[train_df["Asset_ID"] == current_asset_id]
 del train_data_set["Asset_ID"]
 print(train_data_set.head(3))
